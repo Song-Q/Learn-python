@@ -55,7 +55,7 @@ calc(*nums)
 def person(name, age, **kw):
     print('name:', name, 'age:', age, 'other:', kw)
 
-person('Adam', 45, gender='M'm job='Engineer')
+person('Adam', 45, gender='M', job='Engineer')
 #name: Adam age: 45 other: {'gender': 'M', 'job': 'Engineer'}
 extra = {'city': 'Beijing', 'job':'Engineer'}
 person('Jack', 24, city=extra['city'], job=extra['job'])
